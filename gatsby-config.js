@@ -6,13 +6,14 @@ module.exports = {
     title: `My Gatsby Blog`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-mdx", {
+  plugins: [
+    "gatsby-plugin-mdx",
+    {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      name: `blog`,
+      path: `${__dirname}/blog`,
     },
-    __key: "pages"
   },
   "gatsby-plugin-image",
   "gatsby-plugin-sharp",
