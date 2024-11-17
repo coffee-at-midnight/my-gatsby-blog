@@ -1,3 +1,3 @@
-# Learning Gatsby 🚀
+# Blog project with Gatsby 🚀
 
-I hope you're happy now!
+A blog implemented with Gatsby as an SSG (Static Site Generator) and Markdown/MDX as an LML (Lightweight Markup Language).
